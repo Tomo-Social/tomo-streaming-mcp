@@ -28,6 +28,14 @@ Set the control-plane URL and API key in the MCP client's environment:
 }
 ```
 
+If npm is not available in your registry yet, install the pinned GitHub release instead:
+
+```bash
+git clone --branch v0.1.0 https://github.com/Tomo-Social/tomo-streaming-mcp.git
+cd tomo-streaming-mcp
+npm install && npm run build
+```
+
 For a local checkout, replace `npx` with `node` and the absolute path to `dist/index.js`.
 
 ## Tools
